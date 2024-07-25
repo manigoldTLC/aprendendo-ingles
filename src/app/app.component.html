@@ -8,8 +8,8 @@
     <div *ngIf="endType === 'lose'; else endGameVictory" class="container mt-5 d-flex justify-content-center">
         <div class="row">
             <div class="col">
-                <h3 style="color: red;">End Game, you lose :(</h3>
-                <button class="btn btn-primary mt-2" (click)="restartGame()">Play again</button>
+                <h3 style="color: red;">Fim de jogo, você perdeu! :(</h3>
+                <button class="btn btn-primary mt-2" (click)="restartGame()">Jogar novamente</button>
             </div>
         </div>
     </div>
@@ -19,8 +19,8 @@
     <div class="container mt-5 d-flex justify-content-center">
         <div class="row">
             <div class="col">
-                <h3 style="color: green;">End Game, you win :)</h3>
-                <button class="btn btn-primary mt-2" (click)="restartGame()">Play again</button>
+                <h3 style="color: green;">Fim de jogo, você ganhou! :)</h3>
+                <button class="btn btn-primary mt-2" (click)="restartGame()">Jogar novamente</button>
             </div>
         </div>
     </div>
